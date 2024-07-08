@@ -1,7 +1,5 @@
 # Sample size for clinical text clasification
 
-## The project is funded by the ECR Seed Funding Scheme, King's College London, London, UK
-
 ### Collaborators: 
 Diana Shamsutdinova<sup>1</sup>, Jaya Chaturvedi<sup>1</sup>, Saniya Desphande<sup>1</sup>, Chankai Ma<sup>3</sup>, Robert Cobb<sup>3</sup>, Angus Roberts<sup>1</sup>, Daniel Stahl<sup>1</sup> 
 
@@ -10,6 +8,9 @@ Diana Shamsutdinova<sup>1</sup>, Jaya Chaturvedi<sup>1</sup>, Saniya Desphande<s
 <sup>2</sup>Department of Informatics, King's College London; 
 
 <sup>3</sup>Department of Biomedical Engineering, King's College London
+
+### Funding 
+The project is funded by the ECR Seed Funding Scheme, King's College London, London, and by the NIHR Maudsley Biomedical Research Centre at South London and Maudsley NHS Foundation Trust and King’s College London, UK. The views expressed are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care.
 
 ### Background: 
 
