@@ -1,9 +1,11 @@
 # Sample size for clinical text clasification
 
-## The project is funded by the King's College London
+## The project is funded by the ECR Seed Funding Scheme, King's College London, London, UK
 
 ### Collaborators: 
-Diana Shamsutdinova, Jaya Chaturvedi, Saniya Desphande, Chankai Ma, Robert Cobb, Angus Roberts, Daniel Stahl (King's College London)
+Diana Shamsutdinova, Jaya Chaturvedi, Saniya Desphande, Chankai Ma, Robert Cobb, Angus Roberts, Daniel Stahl 
+
+King's College London, IoPPN, Biostatistics and Health Informatics Department
 
 ### Background: 
 
@@ -17,7 +19,7 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 
 ### Results: 
 First, we have found that learning curves of the classification models of different diagnoses varied significantly, despite them using the same underlying preprocessing methods and models. However, further analyses of the text vocabularies were inconclusive, in which variability of the vocabulary complexity did not explain the differences in the learning speeds. 
-Secondly, most models reached their performance at sample sizes of 2000-5000, and therefore, existing practice of annotating as little as few hundreds seems suboptimal, though we acknowledge that this should be weighed against the time cost of people annotating them. 
+Secondly, the models reached their performance at sample sizes of 2000-5000, and therefore, existing practice of annotating as little as few hundreds seems suboptimal, though we acknowledge that this should be weighed against the time cost of people annotating them. 
 
 ### Limitations and further steps: 
 The analysis of the text properties that may underly the differences in the learning curves of the classification NLP models is ongoing, including key words frequencies and distances in the LLMs' document  representations.
@@ -25,3 +27,11 @@ We have not explored the modern generative methods that can help increase traini
 
 ### Code 
 The code is available from this repository
+
+### Other related works and resources by the collabolators:
+
+Preprint: [Sample Size in Natural Language Processing within Healthcare Research](https://arxiv.org/abs/2309.02237).
+
+[A useful tool for comparison of different models for a given sample size](https://jayachaturvedi-sample-size-in-healthcare-nlp-dashboard-poic0t.streamlit.app/)
+
+
