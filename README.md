@@ -23,8 +23,17 @@ Here, in collaboration with  Chnkai Ma, Robert Cobb, and Jaya Chaturvedi,  we ai
 Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpus of the documents contained MIMIC-III's hospital discharge notes and corresponding ICD-10 diagnoses. We then trained classification models to identify one of the chosen diagnoses. We varied the size of the training corpus to investigate the learning curves of the classification models. Further, we tested whether the learning curves depend on the vocabulary properties of the underlying clinical texts. 
 
 ### Results: 
-First, we have found that learning curves of the classification models of different diagnoses varied significantly, despite them using the same underlying preprocessing methods and models. However, further analyses of the text vocabularies were inconclusive, in which variability of the vocabulary complexity did not explain the differences in the learning speeds. 
-Secondly, the models reached their performance at sample sizes of 2000-5000, and therefore, existing practice of annotating as little as few hundreds seems suboptimal, though we acknowledge that this should be weighed against the time cost of people annotating them. 
+* First, we have found that learning curves of the classification models of different diagnoses varied significantly, despite them using the same underlying preprocessing methods and models. However, further analyses of the text vocabularies were inconclusive, in which variability of the vocabulary complexity did not explain the differences in the learning speeds.
+
+* Half of the modelled outcomes did not reach accuracy of 0.70 or above even with the 10,800 documents (the maximum training size in the experiments).
+
+* Secondly, the models reached their performance at the sample sizes above 1000-5000, and therefore, existing practice of annotating as little as few hundreds can be suboptimal.
+
+* That said, for all but one of the diagnoses that models were identifying, *n = 600 would be enough to achieve 95% of the performance that would have been possible with the training size of 10,000*.
+
+
+
+
 
 ### Limitations and further steps: 
 The analysis of the text properties that may underly the differences in the learning curves of the classification NLP models is ongoing, including key words frequencies and distances in the LLMs' document  representations.
