@@ -5,11 +5,11 @@
 ### Collaborators: 
 Diana Shamsutdinova<sup>1</sup>, Jaya Chaturvedi<sup>1</sup>, Saniya Desphande<sup>1</sup>, Chankai Ma<sup>3</sup>, Robert Cobb<sup>3</sup>, Angus Roberts<sup>1</sup>, Daniel Stahl<sup>1</sup> 
 
-<sup>1</sup> Department of Biostatistics and Health Informatics, IoPPN, King's College London
+<sup>1</sup>Department of Biostatistics and Health Informatics, IoPPN; 
 
-<sup>2</sup> Department of Informatics, King's College London
+<sup>2</sup>Department of Informatics, King's College London; 
 
-<sup>3</sup> Department of Biomedical Engineering, King's College London
+<sup>3</sup>Department of Biomedical Engineering, King's College London
 
 ### Background: 
 
@@ -28,7 +28,7 @@ Secondly, the models reached their performance at sample sizes of 2000-5000, and
 ### Limitations and further steps: 
 The analysis of the text properties that may underly the differences in the learning curves of the classification NLP models is ongoing, including key words frequencies and distances in the LLMs' document  representations.
 We have not explored the modern generative methods that can help increase training data, which is out of scope in the present project.
-
+ 
 ### Code 
 The code is available from this repository
 
