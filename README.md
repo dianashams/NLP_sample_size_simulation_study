@@ -35,7 +35,6 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 
 ![image](Sample_size_fig2.jpg)
 
-
 ### Limitations and further steps: 
 The analysis of the text properties that may underly the differences in the learning curves of the classification NLP models is ongoing, including key words frequencies and distances in the LLMs' document  representations.
 We have not explored the modern generative methods that can help increase training data, which is out of scope in the present project.
@@ -47,7 +46,7 @@ The code is available from this repository
 
 Preprint: [Sample Size in Natural Language Processing within Healthcare Research](https://arxiv.org/abs/2309.02237).
 
-![image](Fig3.png)
+![image](Fig4.png)
 
 [A useful tool for comparison of different models for a given sample size](https://jayachaturvedi-sample-size-in-healthcare-nlp-dashboard-poic0t.streamlit.app/)
 
