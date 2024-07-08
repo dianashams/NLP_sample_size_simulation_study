@@ -27,11 +27,13 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 
 * Half of the modelled outcomes did not reach accuracy of 0.70 or above even with the 10,800 documents (the maximum training size in the experiments).
 
-* Secondly, the models reached their performance at the sample sizes above 1000-5000, and therefore, existing practice of annotating as little as few hundreds can be suboptimal.
+![image](Sample_size_fig1.jpg)
 
-* That said, for all but one of the diagnoses that models were identifying, *n = 600 would be enough to achieve 95% of the performance that would have been possible with the training size of 10,000*.
+* The models reached their performance at the sample sizes above 1000-5000, and therefore, existing practice of annotating as little as few hundreds can be suboptimal.
 
+* *n = 600 would be enough to achieve 95% of the performance that would have been possible with the training size of 10,000* for 10 out of 11 modelled diagnoses.
 
+![image](Sample_size_fig2.jpg)
 
 
 
