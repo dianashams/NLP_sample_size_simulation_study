@@ -3,13 +3,11 @@
 ## The project is funded by the ECR Seed Funding Scheme, King's College London, London, UK
 
 ### Collaborators: 
-Diana Shamsutdinova(1), Jaya Chaturvedi(1), Saniya Desphande(1), Chankai Ma(2), Robert Cobb(3), Angus Roberts(1), Daniel Stahl(1) 
+Diana Shamsutdinova[^1], Jaya Chaturvedi[^1], Saniya Desphande[^1], Chankai Ma[^2], Robert Cobb[^3], Angus Roberts[^1], Daniel Stahl[^1] 
 
-(1) King's College London, IoPPN, Biostatistics and Health Informatics Department
-
-(2) Department of Informatics
-
-(3) Department of Biomedical Engineering
+[^1] King's College London, IoPPN, Biostatistics and Health Informatics Department
+[^2] Department of Informatics
+[^3] Department of Biomedical Engineering
 
 ### Background: 
 
