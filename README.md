@@ -3,14 +3,7 @@
 ## The project is funded by the King's College London
 
 ### Collaborators: 
-Diana Shamsutdinova
-Jaya Chaturvedi
-Saniya Desphande
-Chankai Ma
-Robert Cobb
-Angus Roberts
-Daniel Stahl
-
+Diana Shamsutdinova, Jaya Chaturvedi, Saniya Desphande, Chankai Ma, Robert Cobb, Angus Roberts, Daniel Stahl (King's College London)
 
 ### Background: 
 
