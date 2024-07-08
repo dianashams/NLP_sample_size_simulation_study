@@ -48,6 +48,6 @@ Preprint: [Sample Size in Natural Language Processing within Healthcare Research
 
 ![image](Fig4.png)
 
-[A useful tool for comparison of different models for a given sample size](https://jayachaturvedi-sample-size-in-healthcare-nlp-dashboard-poic0t.streamlit.app/)
+[A useful tool for comparison of different models for a given sample size and class proportion](https://jayachaturvedi-sample-size-in-healthcare-nlp-dashboard-poic0t.streamlit.app/)
 
 
