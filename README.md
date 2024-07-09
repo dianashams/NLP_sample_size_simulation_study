@@ -1,4 +1,4 @@
-# Sample size for clinical text classification
+# Optimal sample size for clinical text classification
 
 ### Collaborators: 
 Diana Shamsutdinova<sup>1</sup>, Jaya Chaturvedi<sup>1</sup>, Saniya Desphande<sup>1</sup>, Chankai Ma<sup>3</sup>, Robert Cobb<sup>3</sup>, Angus Roberts<sup>1</sup>, Daniel Stahl<sup>1</sup> 
