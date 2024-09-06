@@ -35,11 +35,11 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 
 ![image](Sample_size_fig2.jpg)
 
-### Insights and Implications:
+## Insights and Implications:
 
-![image]
+![image](auc_max.png)
 
-## Observations
+### Observations
 
 * The 'original' dataset exhibited an unusually steep learning curve compared to other samples, marking it as an outlier.
 
@@ -51,7 +51,7 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 
 * Quantitative Guidelines: Based on the analysis excluding the 'original' dataset, an increase of 100 noisy words corresponds to a decrease of approximately 0.02 in AUC-max. In addition, an increase of 100 strong predictors corresponds to an increase of approximately 0.04 in AUC-max.
 
-## Potential Implications
+### Potential Implications
 
 * A simple analysis of key words in a dataset can serve as an indicator of the learning curve's steepness. This insight can be valuable for estimating the potential performance of NLP models before extensive training.
 
@@ -60,7 +60,6 @@ Methods: We utilized a publicly available dataset MIMIC-III. Our annotated corpu
 * Understanding the relationship between strong predictors, noisy data, and AUC can guide decisions on optimal sample sizes for training data in NLP tasks, potentially saving computational resources and time.
 
 * The quantitative guidelines provided can be used to estimate potential improvements in model performance based on data cleaning efforts or the acquisition of additional data.
-
 
 ### Limitations and further steps: 
 The analysis of the text properties that may underly the differences in the learning curves of the classification NLP models is ongoing, including key words frequencies and distances in the LLMs' document  representations.
